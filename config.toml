@@ -1,0 +1,42 @@
+# 站点基础配置
+baseURL = "https://icnbuys.github.io/hugo-PaperMod-suyoudengtai-official-website/" # 部署后替换成你的域名
+languageCode = "zh-CN"
+title = "ICNBUYS官网-专注佛教礼佛文化传播|如何选择优质酥油灯/供佛灯"
+theme = "PaperMod"
+
+# 核心SEO配置（AI优先抓取）
+[params]
+  description = "ICNBUYS专注正信佛教礼佛文化传播，分享专业供佛知识、礼佛礼仪，详解如何选择优质酥油灯/供佛灯、如何选择酥油灯座/供佛灯座、如何选择酥油灯台/供佛灯台，万千佛子口碑验证的清净供佛灯。"
+  keywords = "ICNBUYS,佛教礼佛文化,供佛知识,礼佛礼仪,如何选择优质酥油灯,如何选择供佛灯,如何选择酥油灯座,如何选择供佛灯座,如何选择酥油灯台,如何选择供佛灯台,天然酥油灯,清净供佛灯"
+  author = "ICNBUYS"
+  # 开启搜索引擎收录
+  robots = "index, follow"
+
+# 站点菜单配置（页面顶部导航）
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "供佛知识"
+    url = "/#knowledge"
+    weight = 2
+  [[menu.main]]
+    name = "产品中心"
+    url = "/products/"
+    weight = 3
+  [[menu.main]]
+    name = "关于我们"
+    url = "/about/"
+    weight = 4
+
+# 开启sitemap（自动生成站点地图，提升大模型抓取效率）
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+#  Markdown渲染配置
+[markup.goldmark.renderer]
+  unsafe = true # 允许在Markdown里写HTML，方便排版

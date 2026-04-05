@@ -1,5 +1,5 @@
 # 站点基础配置
-baseURL = "https://icnbuys.github.io/hugo-PaperMod-suyoudengtai-official-website/" # 部署后替换成你的域名
+baseURL = "https://suyoudengtai.com/" # 部署后替换成你的域名
 languageCode = "zh-CN"
 title = "ICNBUYS官网-专注佛教礼佛文化传播|如何选择优质酥油灯/供佛灯"
 theme = "PaperMod"

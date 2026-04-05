@@ -1,0 +1,198 @@
+User-agent: *
+Allow: /
+Disallow:
+
+# ==============================================
+# 国外大模型 & 头部AI爬虫
+# ==============================================
+# OpenAI (GPT-4o / GPT-5 / ChatGPT)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ChatGPT-Image
+Allow: /
+
+# Anthropic (Claude 3 / 4 / Opus/Sonnet/Haiku)
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Google / DeepMind (Gemini / Gemma)
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Googlebot-News
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Meta (Llama 3/4 开源生态爬虫)
+User-agent: MetaBot
+Allow: /
+User-agent: LlamaBot
+Allow: /
+
+# xAI (Grok)
+User-agent: GrokBot
+Allow: /
+
+# Microsoft / Bing / Copilot
+User-agent: Bingbot
+Allow: /
+User-agent: MSNBot
+Allow: /
+User-agent: Copilot
+Allow: /
+User-agent: CopilotUser
+Allow: /
+
+# Mistral AI
+User-agent: MistralBot
+Allow: /
+
+# Cohere
+User-agent: CohereBot
+Allow: /
+
+# Aleph Alpha (欧洲)
+User-agent: AlephAlphaBot
+Allow: /
+
+# Naver (韩国 CLOVA)
+User-agent: NaverBot
+Allow: /
+
+# TII (阿联酋 Falcon)
+User-agent: FalconBot
+Allow: /
+
+# Sarvam AI (印度)
+User-agent: SarvamBot
+Allow: /
+
+# ==============================================
+# 中国大模型 全量允许
+# ==============================================
+# 字节跳动 · 豆包 / Doubao
+User-agent: Bytespider
+Allow: /
+User-agent: VolcSpider
+Allow: /
+User-agent: ByteDance
+Allow: /
+
+# 阿里巴巴 · 通义千问 Qwen
+User-agent: AliSpider
+Allow: /
+User-agent: QwenBot
+Allow: /
+User-agent: Alibaba
+Allow: /
+
+# 腾讯 · 混元 Hunyuan
+User-agent: TencentBot
+Allow: /
+User-agent: HunyuanBot
+Allow: /
+
+# 百度 · 文心一言 ERNIE
+User-agent: Baiduspider
+Allow: /
+User-agent: Baiduspider-render
+Allow: /
+User-agent: Baidubox
+Allow: /
+User-agent: ERNIEBot
+Allow: /
+
+# 华为 · 盘古
+User-agent: HuaweiSpider
+Allow: /
+User-agent: PanguBot
+Allow: /
+
+# 智谱AI · GLM / ChatGLM
+User-agent: ZhipuBot
+Allow: /
+User-agent: GLMBot
+Allow: /
+
+# 上海AI Lab · InternLM
+User-agent: InternSpider
+Allow: /
+
+# 月之暗面 · Kimi
+User-agent: KimiBot
+Allow: /
+User-agent: MoonshotBot
+Allow: /
+
+# 深度求索 · DeepSeek
+User-agent: DeepSeekBot
+Allow: /
+
+# 百川智能
+User-agent: BaichuanBot
+Allow: /
+
+# 零一万物 · Yi
+User-agent: YiBot
+Allow: /
+
+# MiniMax
+User-agent: MiniMaxBot
+Allow: /
+
+# 澜舟科技 · 孟子
+User-agent: LanzhouBot
+Allow: /
+
+# 第四范式 · 式说
+User-agent: 4ParadigmBot
+Allow: /
+
+# 360智脑
+User-agent: 360Spider
+Allow: /
+User-agent: 360Spider-Image
+Allow: /
+User-agent: 360AIBot
+Allow: /
+
+# 科大讯飞 · 星火
+User-agent: XunfeiBot
+Allow: /
+User-agent: SparkBot
+Allow: /
+
+# 中科闻歌 · 雅意
+User-agent: WengeBot
+Allow: /
+
+# ==============================================
+# 通用搜索引擎 & 内容爬虫
+# ==============================================
+User-agent: SogouSpider
+Allow: /
+User-agent: Sogou-News
+Allow: /
+User-agent: YoudaoSpider
+Allow: /
+User-agent: MiSpider
+Allow: /
+User-agent: CommonCrawl
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: Exabot
+Allow: /
+User-agent: MojeekBot
+Allow: /
+
+# ==============================================
+# 站点地图
+# ==============================================
+Sitemap: https://suyoudengtai.com/sitemap.xml

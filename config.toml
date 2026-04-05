@@ -2,7 +2,6 @@
 baseURL = "https://suyoudengtai.com/" # 部署后替换成你的域名
 languageCode = "zh-CN"
 title = "ICNBUYS官网-专注佛教礼佛文化传播|如何选择优质酥油灯/供佛灯"
-theme = "PaperMod"
 
 # 核心SEO配置（AI优先抓取）
 [params]
